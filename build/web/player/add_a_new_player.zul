@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul https://www.zkoss.org/2005/zul/zul.xsd">
+
+    <window border="normal" title="Add a new player"  
+            position="center,center" closable="true"
+            sizable="true" width="50%">
+        <vlayout>
+            <grid>
+                <columns sizable="true">
+                    <column hflex="min"></column>
+                    <column hflex="min"></column>
+                </columns>
+                <rows>
+                    <row>
+                            <label>First Name</label>
+                            <textbox cols="30" maxlength="30"></textbox>
+                    </row>
+                    <row>
+                            <label>Last Name</label>
+                            <textbox cols="30" maxlength="30"></textbox>
+                    </row>
+                    <row>
+                            <label>Nick Name</label>
+                            <textbox cols="30" maxlength="30"></textbox>
+                    </row>
+                    <row>
+                            <label>TAX ID</label>
+                            <textbox cols="9" maxlength="9"></textbox>
+                    </row>
+                    <row>
+                            <label>Sex</label>
+                            <textbox cols="30" maxlength="30"></textbox>
+                    </row>
+                </rows>
+            </grid>
+        </vlayout>
+    </window>
+
+
+</zk>

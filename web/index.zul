@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet"?>
+<?link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"?>
+<?root-attributes lang="el_GR"?>
+<?page title="Board games" contentType="text/html;charset=UTF-8"?>
+<zk xmlns="http://www.zkoss.org/2005/zul"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.zkoss.org/2005/zul https://www.zkoss.org/2005/zul/zul.xsd">
+
+    <div apply="gr.ypaat.boardgames.IndexMenuBarController" id="index" vflex="1">
+        <menubar>
+            <menu label="Games">
+                <menupopup>
+                    <menuitem id="add_a_new_game_mntm" label="Add a new game" image="/img/dice-solid.svg" />
+                    <menuitem id="edit_a_game_mntm" label="Edit a game" image="/img/hand-scissors-solid.svg" />
+                    <menuitem id="delete_a_game_mntm" label="Delete a game" image="/img/trash-alt-solid.svg" />
+                </menupopup>
+            </menu>
+            <menu label="Player">
+                <menupopup>
+                    <menuitem id="add_a_new_player_mntm" onClick="AddANewPlayer" label="Add a new player" image="/img/user-plus-solid.svg" />
+                    <menuitem id="edit_a_player_mntm" label="Edit a player" image="/img/user-edit-solid.svg" />
+                    <menuitem id="delete_a_player_mntm" label="Delete a player" image="/img/user-minus-solid.svg" />
+                </menupopup>
+            </menu>
+            <menu label="Match">
+                <menupopup>
+                    <menuitem id="add_a_new_match_mntm" label="Add a new match" image="/img/chess-solid.svg" />
+                    <menuitem id="edit_a_match_mntm" label="Edit a match" image="/img/cut-solid.svg" />
+                    <menuitem id="delete_a_match_mntm" label="Delete a match" image="/img/eraser-solid.svg" />
+                </menupopup>
+            </menu>
+        </menubar>
+    </div>
+</zk>
+<?script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"?>
+<?script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"?>
+<?script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"?>
+<?script src="https://kit.fontawesome.com/ea30ee5a46.js" crossorigin="anonymous" ?>
